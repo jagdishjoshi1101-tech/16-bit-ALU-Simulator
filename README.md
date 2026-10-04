@@ -52,3 +52,58 @@ Compile the project using:
 
 ```bash
 make
+```
+
+## Run
+
+Run the program using:
+
+```bash
+./project1
+```
+
+The program will prompt you to enter numbers in decimal, hexadecimal, or binary format and select an ALU operation.
+
+## Clean
+
+Remove the compiled executable using:
+
+```bash
+make clean
+```
+
+## Example
+
+Example input:
+
+```text
+Enter first number (decimal, 0x hex, or 0b binary): 32767
+```
+
+The program displays the result in different number representations along with the CPU status flags.
+
+## Technologies
+
+- C++
+- Make
+- Bitwise operations
+- Two's complement representation
+- Command-line interface
+
+## What I Learned
+
+Through this project, I practiced:
+
+- Implementing arithmetic and logical operations in C++
+- Working with 16-bit signed and unsigned integers
+- Understanding binary and hexadecimal number representations
+- Detecting carry and signed overflow
+- Using bitwise and shift operations
+- Organizing a C++ project using header and implementation files
+- Building a multi-file C++ program with a Makefile
+
+## Author
+
+**Jagdish Joshi**  
+Computer Science Student  
+Youngstown State University
